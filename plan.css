@@ -1,0 +1,108 @@
+/* Pricing card styling */
+.pricing-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Dark mode pricing cards */
+  body.dark-mode .pricing-card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+/* Brighten muted text in dark mode */
+body.dark-mode .text-muted {
+    color: #f1f1f1 !important; /* bright and readable */
+  }
+  /* Default light mode */
+.btn-upgrade {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-upgrade:hover {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  /* Dark mode fix */
+  body.dark-mode .btn-upgrade {
+    background-color: #ffd966;
+    color: #000;
+  }
+  
+  body.dark-mode .btn-upgrade:hover {
+    background-color: #ffe98a;
+    color: #000;
+  }
+  /* Hero section with background image */
+.pricing-hero {
+  background: url('fit2.jpeg') center/cover no-repeat;
+  padding: 100px 20px 60px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.pricing-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* overlay for readability */
+  z-index: -1;
+}
+
+/* Adjust text for dark overlay */
+.pricing-hero h1,
+.pricing-hero p {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+//* Slideshow background setup */
+/* Background slideshow container */
+.pricing-background {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+  }
+  
+  /* The slideshow background image */
+  .slideshow-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.6;
+    transition: opacity 0.6s ease-in-out, background-image 0.6s ease-in-out;
+  }
+  #billingToggle {
+    cursor: pointer;
+  }
+  
+  body.dark-mode #billingLabel {
+    color: #fff;
+  }
+  #saveBadge {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+    border-radius: 20px;
+    vertical-align: middle;
+  }
+  
+  body.dark-mode #saveBadge {
+    background-color: #ffe98a;
+    color: #000;
+  }
+  
