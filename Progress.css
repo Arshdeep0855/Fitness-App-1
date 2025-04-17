@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+  
+  #result {
+    font-size: 18px;
+    background-color: #e3fbe3;
+    border-left: 6px solid #28a745;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  /* Fix form text in dark mode */
+body.dark-mode label,
+body.dark-mode .form-label,
+body.dark-mode .form-select,
+body.dark-mode .form-control {
+  color: #f1f1f1;
+  background-color: #1e1e1e;
+  border-color: #444;
+}
+
+/* Fix input text color */
+body.dark-mode .form-control::placeholder {
+  color: #ccc;
+}
+
+body.dark-mode .form-select {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
+
+/* Optional: Slight glow on inputs */
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 0.15rem rgba(108, 99, 255, 0.25);
+}
+#result .badge {
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+  /* NEW FEATURES */
+  body {
+    background: linear-gradient(to right, #f0f4f8, #e9eff5);
+  }
+  body.dark-mode {
+    background: linear-gradient(to right, #121212, #1a1a1a);
+  }
+  /* FEATURE 2 */
+  h2 {
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+h2::after {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 3px;
+  background-color: #6c63ff;
+  margin: auto;
+  border-radius: 5px;
+}
