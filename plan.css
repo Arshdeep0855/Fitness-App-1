@@ -21,6 +21,7 @@ body.dark-mode .text-muted {
     color: #f1f1f1 !important; /* bright and readable */
   }
   /* Default light mode */
+  /* Upgrade button styling for both light and dark modes */
 .btn-upgrade {
     background-color: #000;
     color: #fff;
@@ -43,6 +44,7 @@ body.dark-mode .text-muted {
     color: #000;
   }
   /* Hero section with background image */
+  /* Hero section showcasing pricing header with background image */
 .pricing-hero {
   background: url('fit2.jpeg') center/cover no-repeat;
   padding: 100px 20px 60px;
