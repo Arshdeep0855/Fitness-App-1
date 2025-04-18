@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let index = 0;
   
     // First image
+    // Background image used for better brand feel
     slideshow.style.backgroundImage = `url('${images[index]}')`;
   
     setInterval(() => {
