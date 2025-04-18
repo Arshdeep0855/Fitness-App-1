@@ -9,7 +9,7 @@ if (localStorage.getItem('darkMode') === 'enabled') {
   emoji.textContent = '🌙';
 }
 
-// Toggle switch logic
+// Toggle switch logic Section
 toggle.addEventListener('change', () => {
   if (toggle.checked) {
     body.classList.add('dark-mode');
