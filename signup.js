@@ -1,4 +1,5 @@
-  document.querySelector("form").addEventListener("submit", async function (e) {
+// Sign up Backend no working
+document.querySelector("form").addEventListener("submit", async function (e) {
     e.preventDefault();
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("signupEmail").value.trim();
