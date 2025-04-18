@@ -8,7 +8,7 @@ body {
   .navbar {
     background-color: white;
   }
-  
+/*  black colour for more readibility */
   .navbar-nav .nav-link {
     color: black;
     margin-right: 20px;
