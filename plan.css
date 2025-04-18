@@ -33,7 +33,7 @@ body.dark-mode .text-muted {
     color: #fff;
   }
   
-  /* Dark mode fix */
+  /* Dark mode */
   body.dark-mode .btn-upgrade {
     background-color: #ffd966;
     color: #000;
