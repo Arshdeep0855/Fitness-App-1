@@ -2,7 +2,7 @@ const toggle = document.getElementById('darkModeToggle');
 const body = document.body;
 const emoji = document.getElementById('themeEmoji');
 
-// Load saved mode on page load
+// Load saved mode on page load secton
 if (localStorage.getItem('darkMode') === 'enabled') {
   body.classList.add('dark-mode');
   toggle.checked = true;
