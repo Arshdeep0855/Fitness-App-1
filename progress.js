@@ -1,3 +1,4 @@
+// BMI Calculator
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('progressForm');
     const resultDiv = document.getElementById('result');
