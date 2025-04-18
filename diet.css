@@ -1,0 +1,87 @@
+/* Nutrition Hero */
+.nutrition-hero {
+    background: url('nutrition-bg.jpg') center/cover no-repeat;
+    background-color: #900; /* fallback red */
+  }
+  
+  /* Cards in light mode */
+  .diet-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Red and black theme for dark mode */
+  body.dark-mode .nutrition-hero {
+    background: linear-gradient(to right, #000, #550000);
+  }
+  
+  body.dark-mode .diet-card {
+    background-color: #1a1a1a;
+    color: #f8d7da;
+    border: 1px solid #ff4c4c;
+  }
+  
+  body.dark-mode .diet-card h5 {
+    color: #ff5555;
+  }
+  /* Meal Table Styling */
+.meal-table th, .meal-table td {
+    vertical-align: middle;
+  }
+  
+  body.dark-mode .meal-table {
+    background-color: #1a1a1a;
+    color: #ffdddd;
+    border-color: #ff4c4c;
+  }
+  
+  body.dark-mode .meal-table th {
+    background-color: #550000;
+    color: #ffffff;
+  }
+  
+  /* Calorie Result Style */
+  #calorieResult {
+    font-size: 1.2rem;
+    color: #dc3545;
+  }
+  
+  body.dark-mode #calorieResult {
+    color: #ff4c4c;
+  }
+  /* Default light mode */
+.meal-table th {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  .meal-table td {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  /* Red and black dark mode for table */
+  body.dark-mode .meal-table {
+    background-color: #111;
+    border-color: #900;
+  }
+  
+  body.dark-mode .meal-table th {
+    background-color: #900;
+    color: #fff;
+    border-color: #900;
+  }
+  
+  body.dark-mode .meal-table td {
+    background-color: #1a1a1a;
+    color: #ffdddd;
+    border-color: #900;
+  }
+  .meal-table tbody tr:hover {
+    background-color: #ffe5e5;
+  }
+  
+  body.dark-mode .meal-table tbody tr:hover {
+    background-color: #330000;
+  }
+  
+  
