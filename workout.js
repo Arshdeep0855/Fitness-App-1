@@ -1,3 +1,4 @@
+// this script handles the workout plan form functionality
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('workoutForm');
     const result = document.getElementById('planResult');
