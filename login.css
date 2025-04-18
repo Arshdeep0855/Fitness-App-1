@@ -4,6 +4,7 @@
     background-color: #fff;
   }
 /*   color */
+/* dark themed mode for proper enchancibilty  */
   body.dark-mode .login-card {
     background-color: #1a1a1a;
     color: #fff;
