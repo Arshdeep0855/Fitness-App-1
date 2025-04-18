@@ -1,7 +1,7 @@
 /* Nutrition Hero */
 .nutrition-hero {
     background: url('nutrition-bg.jpg') center/cover no-repeat;
-    background-color: #900; /* fallback red */
+    background-color: #900; /* fallback red Color*/
   }
   
   /* Cards in light mode */
