@@ -1,3 +1,4 @@
+// maintenence calorie
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('calorieForm');
     const result = document.getElementById('calorieResult');
