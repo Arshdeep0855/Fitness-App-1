@@ -9,7 +9,7 @@
     background-color: #1a1a1a;
     color: #fff;
   }
-  
+/*   body dark mode  */
   body.dark-mode .login-card input {
     background-color: #111;
     color: #fff;
