@@ -1,5 +1,5 @@
 const toggle = document.getElementById('darkModeToggle');
-const body = document.body;
+const body = document.body;      
 const emoji = document.getElementById('themeEmoji');     
 
 // Load saved mode on page load
