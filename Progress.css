@@ -40,7 +40,7 @@ body.dark-mode .form-control {
   border-color: #444;
 }
 
-/* Fix input text color */
+/* fix input text color */
 body.dark-mode .form-control::placeholder {
   color: #ccc;
 }
