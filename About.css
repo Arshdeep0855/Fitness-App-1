@@ -1,5 +1,5 @@
 /* color */
-body.dark-mode .team-card {
+body.dark-mode .team-card { 
     background-color: #1a1a1a;
     border-left: 4px solid #ff4c4c;
     color: #f5cfcf;
